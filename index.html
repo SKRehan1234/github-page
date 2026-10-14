@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive static website deployed with GitHub Pages">
+    <title>BrightWeb | My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header" id="top">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#top" class="logo">Bright<span>Web</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    type="button" aria-label="Toggle navigation"
+                    aria-controls="nav-links" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">MY WEB DEVELOPMENT PROJECT</p>
+
+                <h1>Build Your Ideas.<br>
+                    <span>Share Them Online.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Welcome to BrightWeb, a simple and responsive website
+                    created using HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#features" class="button button-primary">
+                        Explore Features
+                    </a>
+                    <a href="#about" class="button button-secondary">
+                        Learn More
+                    </a>
+                </div>
+
+                <p class="hero-note">
+                    <span class="status-dot"></span>
+                    Responsive, modern, and free to host.
+                </p>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="container two-column">
+                <div>
+                    <p class="eyebrow">ABOUT US</p>
+                    <h2>A Simple Website With a Purpose</h2>
+                </div>
+
+                <div class="about-copy">
+                    <p>
+                        BrightWeb is a beginner-friendly website project
+                        designed to demonstrate essential front-end
+                        development skills.
+                    </p>
+                    <p>
+                        This project uses HTML to structure the content,
+                        CSS to style the pages, and JavaScript to add
+                        interactive features.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section features-section" id="features">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">OUR FEATURES</p>
+                    <h2>What This Project Includes</h2>
+                    <p>Three important technologies used to build a website.</p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>
+                            HTML creates the structure and organizes
+                            the content of the website.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">#</div>
+                        <h3>CSS</h3>
+                        <p>
+                            CSS adds colors, spacing, layouts, and
+                            responsive styles.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>
+                            JavaScript adds interactive navigation
+                            and dynamic page features.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section" id="contact">
+            <div class="container cta-content">
+                <div>
+                    <p class="eyebrow">GET STARTED</p>
+                    <h2>Ready to Publish Your Website?</h2>
+                    <p>
+                        Follow the GitHub Pages guide to publish
+                        your project online for free.
+                    </p>
+                </div>
+
+                <a class="button button-light"
+                   href="https://pages.github.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub Pages Guide ↗
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a href="#top" class="logo footer-logo">
+                Bright<span>Web</span>
+            </a>
+
+            <p>Created for Web Development Internship Task 5.</p>
+
+            <p class="copyright">
+                &copy; <span id="current-year"></span> BrightWeb.
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+```
